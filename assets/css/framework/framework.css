@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*---------------Flex properties-------------------------*/
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+.fx-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fx-justify{
+    justify-content: center;
+}
+.fx-align{
+    align-items: center;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex:2;
+}
+.flex-3{
+    flex: 3;
+}
+/*------------------------*/
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    cursor: pointer;
+}
+input{
+    outline: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button{
+    cursor:pointer;
+}
+i{
+    color: rgb(114, 114, 114);
+    font-size: 1.2rem;
+    
+}
