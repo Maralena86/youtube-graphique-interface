@@ -1,11 +1,13 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*---------------Flex properties-------------------------*/
-.flexColumn{
+.flexCol{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 .flex{
     display: flex;
@@ -37,6 +39,16 @@ body{
 .flex-3{
     flex: 3;
 }
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position:absolute;
+}
+
 /*------------------------*/
 a{
     text-decoration: none;
@@ -44,7 +56,9 @@ a{
 }
 ul{
     cursor: pointer;
+    list-style-type: none;
 }
+
 input{
     outline: none;
     font-size: 1.2rem;
@@ -55,7 +69,13 @@ button{
     cursor:pointer;
 }
 i{
-    color: rgb(114, 114, 114);
-    font-size: 1.2rem;
-    
+    color: rgb(87, 85, 85);
+    font-size: 1rem;
+    cursor: pointer; 
+}
+/*-----------videos----------*/
+
+.profil-picture img{
+    width: 40px;
+    border-radius: 50px;
 }

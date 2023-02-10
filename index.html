@@ -15,8 +15,8 @@
     <header>
         <div class="header-top flex between ">
             <div class="header-top-left">
-                <div class="header-icon">
-                    <i class="fa-solid fa-bars link"></i>
+                <div class="header-icon fx-center">
+                    <i class="fa-solid fa-bars link" id="collapse"></i>
                     <img src="assets/images/logo/youTube_logo.png" height="20" alt="logo">
                 </div>
             </div>
@@ -34,19 +34,211 @@
                 <a href="" class="link"><i class="fa-solid fa-grip"></i></a>
                 <a href="" class="link"><i class="fa-regular fa-bell"></i></a>
                 <a href="" class="link"><i class="fa-solid fa-circle-user"></i></a>
-                
-                
-                
-                
             </div>
         </div>
+        
+        <nav class="header-left fixed" id="navbar">
+            <ul>
+                <div class="header-left-section">
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href=""><img src="assets/images/icons/explore.png" class="icon" height="20">Explore</a></li>
+                    <li><a href=""><i class="fa-solid fa-tv"></i>Subscriptions</a></li>
+                </div>
+                <div class="header-left-section">
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></i>Library</a></li>
+                    <li><a href=""><i class="fa-solid fa-play"></i>Your Videos</a></li>
+                    <li><a href=""><i class="fa-solid fa-gear"></i>Account</a></li>
+                    <li><a href=""><i class="fa-solid fa-clock-rotate-left"></i>History</a></li>
+                    <li><a href=""><img src="assets/images/icons/later.png" class="icon" width="18">Watch later</a></li>
+                </div>
+                <div class="header-left-section">
+                    <h4>SUBSCRIPTIONS</h4>
+                </div>
+                <li><a href=""><i class="fa-regular fa-circle-question"></i>Help</a></li>
+            </ul>
+        </nav>
     </div>
 
     </header>
-    <div class="container">
-        
-    </div>
-    <footer></footer>
     
+
+    <main class="flex">
+        <div id="header-left-contracted">
+            <div><a href="#"><i class="fa-solid fa-house"></i><p>Home</p></a></div>
+            <div><a href="#"><img src="assets/images/icons/explore.png" class="icon" height="20"><p>Explore</p></a></div>
+            <div><a href="#"><i class="fa-brands fa-youtube"></i><p>Library</p></a></div>
+            <div><a href="#"><i class="fa-solid fa-play"></i><p>Subscriptions</p></a></div>
+            
+        </div>
+        <div>
+            <div class="container">
+                <div class="library-items flex fx-justify">
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/simpsons.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/videos-img/profil/pepe.png" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">The Simpsons. In a nightmare travel in the deep</div>
+                                <div class="profil-name">Pepe the frog</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/travel.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">Discovering the most beautiful places</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>911K views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/la femme.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">La femme.Release party. Live by art</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/news.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">Live from the country of love</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/javascript.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">Javascript tutorial: Everything that you need</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/php.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/videos-img/profil/pepe.png" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">Tutorial Php: deep learn tutorial </div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/dance.webp" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">24 hours of music to dance</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/boudhisme.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">The buddhisme: The history of a philosophy</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>911K views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/miasaky.jpg" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/videos-img/profil/pepe.png" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">The best films in animation</div>
+                                <div class="profil-name">Pepe the frog</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="video">
+                            <img src="assets/images/videos-img/yoga.webp" alt="">
+                        </div>
+                        <div class="description-video flex between">
+                            <div class="profil-picture">
+                                <img src="assets/images/logo/profil.jpg" alt="profil">
+                            </div>
+                            <div class="video-info">
+                                <div class="video-title">24 minutes of yoga: take a breath</div>
+                                <div class="profil-name">Maria8626</div>
+                                <div class="views flex"><p>4.5 views </p><p>1 year ago</p></div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <footer></footer>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>

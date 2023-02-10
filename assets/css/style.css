@@ -1,8 +1,19 @@
+body{
+    background-color: rgb(248, 248, 247);
+}
 .header-top{
     height: 56px;
     align-items: center;
-    padding: 0px 16px;
+    background-color: white;
     border-bottom: 1px solid rgb(219, 219, 219) ;
+    position: fixed; 
+    width: 100%;
+}
+.header-top-left{
+    padding-left: 10px;
+}
+.header-top-right{
+    padding-right: 10px;
 }
 
 .fa-microphone{
@@ -12,7 +23,7 @@
 }
 
 .search-bar>input{
-    width: 60%;
+    width: 40%;
     border:1px solid rgb(219, 219, 219);
     border-right: none;
 }
@@ -35,5 +46,77 @@ header input{
     background-color: rgb(248, 248, 248);
     margin-right: 8px; 
 }
+/*----------Header-left-------------------*/
 
+header .header-left{
+    z-index: 999;
+    background-color: white;
+    width: 244px;
+    min-height: 100vh;
+    display: none;
+    margin-top: 45px;
+}
+.header-left-section{
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding: 10px 0px;
+    width: 95%;
+}
+.header-left-section >h4{
+    color: gray;
+    font-size: 0.8rem;
+    padding-left: 24px;
+}
+
+.header-left a{
+    display: flex;
+    align-items: center;   
+    padding: 10px 0px 10px 24px;
+    font-size: 0.8rem;
+       
+}
+.header-left a:hover{
+    background-color: rgb(240, 240, 240);
+}
+.header-left a:active{
+    background-color: rgb(151, 148, 148);
+
+}
+.header-left i, .header-left .icon{
+    margin-right: 24px;
+}
+.fa-play{
+    font-size: 0.5rem;
+    padding: 3px 4px 3px 5px;
+    border: 0.5px solid black;  
+}
+/*-----------------Header left contracted---------------------------*/
+#header-left-contracted{
+    background-color: white;
+    width: 72px;
+    font-size: 0.7rem;
+    margin-top: 56px;
+    min-height: 90vh;
+    text-align: center;
+    z-index: 9999;
+  
+}
+
+#header-left-contracted >div{
+    padding: 10px 0px 20px 0px;
+}
+#header-left-contracted i{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:  650px){
+    header input{
+         display: none;
+    }
+    .lens{
+        border: none;
+        background-color: white;
+       
+    }
+   
+
+}
 
