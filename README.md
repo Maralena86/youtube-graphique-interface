@@ -1,6 +1,10 @@
 # youtube-graphique-interface
 
-Exercice pour copier l'interface graphique de youtube
+Trainig to improve CSS skills:
+Responsive
+Respect of template.
+
+
  https://maralena86.github.io/youtube-graphique-interface/
 
 In process.......
